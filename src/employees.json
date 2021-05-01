@@ -1,58 +1,66 @@
 [
     {
         "id": 1,
-        "name": "",
-        "image": "",
-        "position": "",
-        "employeeId": "",
-        "location": ""
+        "name": "Beyonce Knowles",
+        "image": "https://pyxis.nymag.com/v1/imgs/6c0/570/056961772f9239c7ad26e784b020e410ae-beyonce.rsquare.w1200.jpg",
+        "position": "Lemonade Diva",
+        "employeeId": "700",
+        "location": "New York"
     },
     {
-        "id": 1,
-        "name": "",
+        "id": 2,
+        "name": "Niki Minaj",
         "image": "",
-        "position": "",
-        "employeeId": "",
-        "location": ""
+        "position": "Pinkprint Diva",
+        "employeeId": "701",
+        "location": "New York"
     },
     {
         "id": 3,
-        "name": "",
+        "name": "Ariana Grande",
         "image": "",
-        "position": "",
-        "employeeId": "",
-        "location": ""
+        "position": "Dangerous Diva",
+        "employeeId": "702",
+        "location": "California"
     },
     {
         "id": 4,
-        "name": "",
+        "name": "Lady Gaga",
         "image": "",
-        "position": "",
-        "employeeId": "",
-        "location": ""
+        "position": "Fame Monster Diva",
+        "employeeId": "703",
+        "location": "California"
     },
     {
         "id": 5,
-        "name": "",
+        "name": "Jennifer Lopez",
         "image": "",
-        "position": "",
-        "employeeId": "",
-        "location": ""
+        "position": "On The 6 Diva",
+        "employeeId": "704",
+        "location": "Florida"
     },
     {
         "id": 6,
-        "name": "",
+        "name": "Janelle Monae",
         "image": "",
-        "position": "",
-        "employeeId": "",
-        "location": ""
+        "position": "Dirty Computer Diva",
+        "employeeId": "705",
+        "location": "Kansas"
     },
     {
         "id": 7,
-        "name": "",
+        "name": "Mariah Carey",
         "image": "",
         "position": "",
-        "employeeId": "",
-        "location": ""
+        "employeeId": "706",
+        "location": "California"
+    },
+    {
+        "id": 8,
+        "name": "Cardi B",
+        "image": "",
+        "position": "Invasion of Privacy Diva",
+        "employeeId": "707",
+        "location": "Georgia"
     }
 ]
