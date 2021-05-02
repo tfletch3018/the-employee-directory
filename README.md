@@ -28,7 +28,11 @@ The user should be able to:
 ```
 ## Usage
 
+<img src="images\Screenshot1.png" />
 
+<img src="images\Screenshot2.png" />
+
+<img src="images\demo.gif" />
 
 ## License
 MIT License
@@ -61,4 +65,4 @@ SOFTWARE.
 
 [Deployed on Github-Pages]()
 
-[Watch the demo!]()
+[Watch the demo!](https://drive.google.com/file/d/1qG09h80lnNG14jDKfwqnF15XHMrgxBaq/preview)
