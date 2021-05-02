@@ -1,23 +1,17 @@
-import React, { Component } from "react";
-import Main from "./components/Main";
-import employees from "./employees.json";
-import Wrapper from "./components/Wrapper";
-import Jumbotron from "./components/Title";
+import React from 'react';
+import Navbar from './components/NavBar';
+import Footer from './components/Footer';
+import MainContainer from './components/MainContainer';
+import './components/style.css';
 
-
-class App extends Component {
-  state = {
-    employees
-  };
-
-  render() {
-    return (
-      <Wrapper>
-        <Jumbotron />
-        <Main />
-        </Wrapper>
-    )
-  }
-};
+function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <MainContainer />
+      <Footer />
+    </div>
+  );
+}
 
 export default App;
