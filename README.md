@@ -63,6 +63,6 @@ SOFTWARE.
 ## Features
 [My repo](https://github.com/tfletch3018/the-employee-directory)
 
-[Deployed on Github-Pages]()
+[Deployed on Github-Pages](https://tfletch3018.github.io/the-employee-directory/)
 
 [Watch the demo!](https://drive.google.com/file/d/1qG09h80lnNG14jDKfwqnF15XHMrgxBaq/preview)
