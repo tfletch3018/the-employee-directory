@@ -78,7 +78,7 @@ function Main() {
             </button>
             </div>
             <div style={{ display: "flex", justifyContent: "center", margin: "auto", color: "#b3b3ff" }}>
-                <p><small>Hover to sort employees by Phone or Email</small></p>
+                <p><small>Hover to the right of Phone Number or Email to Sort😊</small></p>
             </div>
             <Table list={users} sortEmail={sortEmail} sortNumber={sortNumber} />
 
