@@ -1,5 +1,5 @@
-import React from 'react'
-import './style.css'
+import React from 'react';
+import './style.css';
 
 function Navbar() {
     return (
@@ -7,6 +7,6 @@ function Navbar() {
             <h1>The Employee Directory</h1>
         </nav>
     )
-}
+};
 
-export default Navbar
+export default Navbar;

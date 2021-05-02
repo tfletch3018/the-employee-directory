@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Table(props) {
     return (
@@ -28,6 +28,6 @@ function Table(props) {
             </tbody>
         </table>
     )
-}
+};
 
-export default Table
+export default Table;

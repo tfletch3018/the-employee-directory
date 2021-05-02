@@ -17,7 +17,7 @@ function Main() {
     };
 
     function getSearchResults() {
-        console.log('Searching for: ', search)
+        console.log('Searching...: ', search)
         const searchedUser = users.filter(user => search.indexOf(user.name.first) > -1 || search.indexOf(user.name.last) > -1)
         console.log(searchedUser)
         setUsers(searchedUser)
@@ -38,21 +38,6 @@ function Main() {
         getSearchResults()
     };
 
-    function sortEmail() {
-        console.log('Items are being sorted!')
-        const sorted = users.sort(function (item1, item2) {
-            if (item1.email < item2.email) {
-                return -1
-            }
-            if (item1.email > item2.email) {
-                return 1
-            }
-            return 0
-        })
-        console.log('Sorted List: ', sorted)
-        setUsers([...sorted])
-    };
-
     function sortNumber() {
         console.log('Items are being sorted!')
         const sorted = users.sort(function (item1, item2) {
@@ -67,6 +52,21 @@ function Main() {
         console.log('Sorted List: ', sorted)
         setUsers([...sorted])
     }
+
+    function sortEmail() {
+        console.log('Items are being sorted!')
+        const sorted = users.sort(function (item1, item2) {
+            if (item1.email < item2.email) {
+                return -1
+            }
+            if (item1.email > item2.email) {
+                return 1
+            }
+            return 0
+        })
+        console.log('Sorted List: ', sorted)
+        setUsers([...sorted])
+    };
 
     return (
         <div className="container" style={{ marginTop: "20px", marginBottom: "20px" }}>
