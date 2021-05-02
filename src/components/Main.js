@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import Table from './Table'
 
-function MainContainer() {
+function Main() {
     const [users, setUsers] = useState([])
     const [search, setSearch] = useState("")
 
@@ -86,4 +86,4 @@ function MainContainer() {
     )
 }
 
-export default MainContainer
+export default Main
