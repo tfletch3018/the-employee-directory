@@ -5,8 +5,10 @@ function Footer() {
   return (
     <footer>
       <ul class="footer">
-        <li>Text Here</li>
-        <li>Text Here</li>
+      <li class="nav-item">
+        <p>Generated Data Courtesy of: </p>
+            <a class="nav-link active" href="https://randomuser.me/">Random user API</a>
+          </li>
       </ul>
 
 
