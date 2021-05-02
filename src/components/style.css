@@ -1,18 +1,22 @@
 li{
     list-style-type: none;
 }
+h1 {
+    color: #b3b3ff;
+    text-shadow: 2px 2px #808080;
+}
 
 nav{
     display: flex;
     justify-content: center;
-    background-color: blanchedalmond;
-    border-bottom: 10px solid #000000;
+    background-color: #666699;
+    border-bottom: 10px solid #808080;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .filter{
-    color: rgb(197, 65, 65);
+    color: rgb(255, 179, 255);
     opacity: 0;
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -27,10 +31,12 @@ nav{
 }
 
 footer{
-    background-color: blanchedalmond;
-    border-top: 4px solid black;
+    background-color: #666699;
+    border-top: 4px solid #808080;
     padding-bottom: 2px;
     line-height: 1;
+    color: #b3b3ff;
+    text-shadow: 2px 2px #808080
 }
 
 .footer{

@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
-import Table from './Table'
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import Table from './Table';
 
 function Main() {
     const [users, setUsers] = useState([])
@@ -9,34 +9,34 @@ function Main() {
     useEffect(() => {
         getRandomUsers()
     },
-        [])
+        []);
 
     async function getRandomUsers() {
-        const result = await axios.get('https://randomuser.me/api/?results=25&seed=seed')
+        const result = await axios.get('https://randomuser.me/api/?results=30&seed=seed')
         setUsers(result.data.results)
-    }
+    };
 
     function getSearchResults() {
         console.log('Searching for: ', search)
         const searchedUser = users.filter(user => search.indexOf(user.name.first) > -1 || search.indexOf(user.name.last) > -1)
         console.log(searchedUser)
         setUsers(searchedUser)
-    }
+    };
 
     function clearSearch() {
         setSearch("")
         getRandomUsers()
-    }
+    };
 
     function handleInputChange(event) {
         setSearch(event.target.value)
         console.log(event.target.value)
-    }
+    };
 
     function handleFormSubmit(event) {
         event.preventDefault()
         getSearchResults()
-    }
+    };
 
     function sortEmail() {
         console.log('Items are being sorted!')
@@ -51,7 +51,7 @@ function Main() {
         })
         console.log('Sorted List: ', sorted)
         setUsers([...sorted])
-    }
+    };
 
     function sortNumber() {
         console.log('Items are being sorted!')
@@ -83,7 +83,7 @@ function Main() {
             <Table list={users} sortEmail={sortEmail} sortNumber={sortNumber} />
 
         </div>
-    )
+    );
 }
 
-export default Main
+export default Main;
