@@ -43,3 +43,28 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+
+.btn-check:active+.btn-outline-primary, 
+.btn-check:checked+.btn-outline-primary, 
+.btn-outline-primary.active, 
+.btn-outline-primary.dropdown-toggle.show, 
+.btn-outline-primary:active{
+    color: #fff;
+    background-color: #666699;
+    border-color: #b3b3ff;
+}
+
+.btn-outline-primary {
+    color: #666699;
+    border-color:#b3b3ff;
+    background-color: #666699;
+}
+
+
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color:#b3b3ff;
+}

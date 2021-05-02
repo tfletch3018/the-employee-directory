@@ -71,10 +71,10 @@ function Main() {
     return (
         <div className="container" style={{ marginTop: "20px", marginBottom: "20px" }}>
             <div className="input-group mb-3 float-center">
-                <input value={search} onChange={handleInputChange} type="text" className="form-control" placeholder="Search for an Employee by Name" aria-label="Username" aria-describedby="button-addon2" />
-                <button className="btn btn-outline-danger" onClick={clearSearch}><i class="fas fa-window-close"></i>
+                <input value={search} onChange={handleInputChange} type="text" className="form-control" placeholder="Search for an Employee by Name" aria-label="Username" aria-describedby="button-addon" />
+                <button className="btn btn-outline-danger" onClick={clearSearch}><i class="fas fa-recycle"></i>
                 </button>
-                <button onClick={handleFormSubmit} className="btn btn-outline-primary" type="submit" id="button-addon2">Search
+                <button onClick={handleFormSubmit} className="btn btn-outline-primary" type="submit" id="button-addon"><i class="fab fa-searchengin"></i>Search
             </button>
             </div>
             <div style={{ display: "flex", justifyContent: "center", margin: "auto", color: "#b3b3ff" }}>
