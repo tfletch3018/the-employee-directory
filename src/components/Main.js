@@ -71,7 +71,7 @@ function Main() {
     return (
         <div className="container" style={{ marginTop: "20px", marginBottom: "20px" }}>
             <div className="input-group mb-3 float-center">
-                <input value={search} onChange={handleInputChange} type="text" className="form-control" placeholder="Search for an Employee by Name" aria-label="Username" aria-describedby="button-addon" />
+                <input value={search} onChange={handleInputChange} type="text" className="form-control" placeholder="Search for an Employee by Name (Entries are case sensitive ie 'John Smith')" aria-label="Username" aria-describedby="button-addon" />
                 <button className="btn btn-outline-danger" onClick={clearSearch}><i class="fas fa-recycle"></i>
                 </button>
                 <button onClick={handleFormSubmit} className="btn btn-outline-primary" type="submit" id="button-addon"><i class="fab fa-searchengin"></i>Search
