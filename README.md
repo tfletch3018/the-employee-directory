@@ -65,4 +65,4 @@ SOFTWARE.
 
 [Deployed on Github-Pages](https://tfletch3018.github.io/the-employee-directory/)
 
-[Watch the demo!](https://drive.google.com/file/d/1qG09h80lnNG14jDKfwqnF15XHMrgxBaq/preview)
+[Watch the demo!](https://drive.google.com/file/d/1CxwShqBvgC0T6ncfbUf5OvYd3k2Wtqbl/preview)
